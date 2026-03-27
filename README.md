@@ -89,10 +89,25 @@ Before installing this plugin, make sure you have:
 
 ## Installation
 
-1. Build the plugin project in Visual Studio.
-2. Copy the built plugin output into your LaunchBox `Plugins` folder.
-3. Make sure any required dependencies are copied alongside the plugin DLL.
-4. Ensure the plugin assets are present, including icon assets under:
+## Installation
 
-   ```text
-   Assets\Icons
+1. Download `KavitaConnector.zip`.
+2. Extract the contents of `KavitaConnector.zip` into your `LaunchBox\Plugins` folder.
+3. Start LaunchBox.
+4. In LaunchBox, go to **Tools > Kavita Plugin Setup**.
+5. Enter your:
+
+   * **Local Server URL**
+   * **API Key**
+   * **Public Reader URL** *(optional, only needed if you want to use an external/public domain for reading)*
+6. If you are using a **local** setup, leave **Open Reader Fullscreen** unchecked for now. You will have to do an initial sign-in after connecting your first guide, afterwards fullscreen can be checked
+7. If you are using a **public reader URL**, you can enable **Open Reader Fullscreen** immediately.
+8. Select **Test Connection** to confirm the plugin can connect to Kavita.
+9. Once the connection test succeeds, setup is complete.
+
+## Notes
+
+* **Local Server URL** should point to your local Kavita instance.
+* **Public Reader URL** is optional and is only needed if your reader is accessed through a public-facing domain.
+* If you are unsure which mode you will use, start with the local server configuration first.
+
