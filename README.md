@@ -1,6 +1,7 @@
 # Kavita Reader LaunchBox Plugin
 
 Integrates LaunchBox with Kavita so you can match games with strategy guides and open them directly from LaunchBox with cover art, metadata, and reader launch support.
+<img width="1240" height="817" alt="2026-03-27 15_09_22-LaunchBox" src="https://github.com/user-attachments/assets/426f6858-2dbb-4189-8c71-844a207a782f" />
 
 ---
 
